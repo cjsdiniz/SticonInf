@@ -364,6 +364,12 @@ a:not([href]):not([tabindex]):hover {
 .overlay-2 {
   background: rgba(0, 0, 0, 0.7) !important;
 }
+
+.subtitulo{
+  /* color: #d65600 !important; */
+  color: red !important;
+  font-size: 20px !important;
+}
 /* ==========================================================================
    About Section Style
    ========================================================================== */
@@ -566,18 +572,18 @@ a:not([href]):not([tabindex]):hover {
   opacity: 1;
 }
 /* ==========================================================================
-   Portfolio Section
+   Parceiros Section
    ========================================================================== */
-#portfolios {
+#parceiros {
   background: #f2f2f2;
 }
-#portfolios .mix {
+#parceiros .mix {
   padding: 10px;
 }
-#portfolios .portfolio-item .shot-item {
+#parceiros .parceiros-item .shot-item {
   margin: 0px;
 }
-#portfolio-list .mix {
+#parceiros-list .mix {
   display: none;
 }
 .controls {
@@ -598,12 +604,12 @@ a:not([href]):not([tabindex]):hover {
 .controls:hover {
   cursor: pointer;
 }
-.portfolio-img {
+.parceiro-img {
   overflow: hidden;
   display: block;
   position: relative;
 }
-.portfolio-img img {
+.parceiro-img img {
   width: 100%;
 }
 .portfoli-content {
@@ -676,8 +682,8 @@ a:not([href]):not([tabindex]):hover {
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-.portfolio-item:hover .portfoli-content,
-.portfolio-item:hover .portfoli-content:before {
+.parceiro-item:hover .portfoli-content,
+.parceiro-item:hover .portfoli-content:before {
   opacity: 1;
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
@@ -685,7 +691,7 @@ a:not([href]):not([tabindex]):hover {
   -o-transform: scale(1);
   transform: scale(1);
 }
-.portfolio-item:hover .sup-title {
+.parceiro-item:hover .sup-title {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -693,7 +699,7 @@ a:not([href]):not([tabindex]):hover {
   transform: scale(1);
   opacity: 1;
 }
-.portfolio-item:hover .sup-description {
+.parceiro-item:hover .sup-description {
   opacity: 1;
   -webkit-transform: translateY(0px);
   transform: translateY(0px);
