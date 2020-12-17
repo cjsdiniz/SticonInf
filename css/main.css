@@ -169,6 +169,7 @@ a:not([href]):not([tabindex]):hover {
 }
 .logo-menu a {
   font-size: 20px;
+  /* color: #f00; */
   color: #fff;
 }
 .menu-bg {
@@ -364,10 +365,14 @@ a:not([href]):not([tabindex]):hover {
 .overlay-2 {
   background: rgba(0, 0, 0, 0.7) !important;
 }
+.titulo{
+  /* color: #d65600 !important; */
+  color: red !important;
+}
 
 .subtitulo{
   /* color: #d65600 !important; */
-  color: red !important;
+  color: white !important;
   font-size: 20px !important;
 }
 /* ==========================================================================
