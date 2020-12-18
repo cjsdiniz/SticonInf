@@ -11,7 +11,8 @@
    MixitUp
    ========================================================================== */
     $(function(){
-      $('#portfolio').mixItUp();
+      // $('#portfolio').mixItUp();
+      $('#parceiro').mixItUp();
     });
 
 /* 
