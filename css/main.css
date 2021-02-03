@@ -1108,11 +1108,24 @@ footer {
   color: #ffffff;
 }
 .facebook a {
-  color: #4867aa;
+  color: red;
+  /* color: #4867aa; */
 }
 .facebook a:hover {
-  background: #4867aa;
+  background: red;
+  /* background: #4867aa; */
 }
+
+.instagram a {
+  color: red;
+  /* color: #4867aa; */
+}
+.instagram a:hover {
+  background: red;
+  /* background: #4867aa; */
+}
+
+
 .twitter a {
   color: #1da1f2;
 }
@@ -1266,4 +1279,117 @@ footer {
     transform: scale(1);
     -webkit-transform: scale(1);
   }
+}
+
+/* Parceiros */
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+
+  /* display:inline-flexbox */
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prevbtn,
+.nextbtn {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: red;
+  /* color: white; */
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.nextbtn {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prevbtn:hover,
+.nextbtn:hover {
+  background-color: rgba(100, 0, 0, 0.8);
+  color: white;
+  /* background-color: rgba(0, 0, 0, 0.8); */
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #000000;
+  /* color: #f2f2f2; */
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.centra{
+  display:inline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.remotesup {
+  display: inline-block;
+  font-size: 12px;
+  align-items: flex-end;
+}
+
+.remotesup a {
+  color: red;
 }
