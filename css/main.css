@@ -134,7 +134,15 @@ a:not([href]):not([tabindex]):hover {
   color: #ff0000;
   /* color: #4676fa; */
 }
-.section-header .section-subtitle {
+
+.section-subtitle {
+  margin-top: 15px;
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.section-header  {
   margin-top: 15px;
   color: #333;
   font-size: 14px;
@@ -819,6 +827,15 @@ a:not([href]):not([tabindex]):hover {
 .table-left {
   margin-top: 20px;
 }
+
+.pricing-details a{
+  color: red;
+}
+
+.pricing-details a:hover{
+  color: white;
+  background-color: red;
+}
 /* ==========================================================================
    Counter Section Style
    ========================================================================== */
@@ -1387,11 +1404,13 @@ footer {
 .remotesup {
   display: inline-block;
   font-size: 12px;
-  align-items: flex-end;
+  /* align-items: flex-start; */
+  background: red;
+  color: white;
 }
 
 .remotesup a {
-  color: red;
+  color: white;
 }
 
 #videoBG {
