@@ -828,14 +828,17 @@ a:not([href]):not([tabindex]):hover {
   margin-top: 20px;
 }
 
-.pricing-details a{
+.pricing-details a, img{
   color: red;
+  background-color: white;
 }
+
 
 .pricing-details a:hover{
   color: white;
   background-color: red;
 }
+
 /* ==========================================================================
    Counter Section Style
    ========================================================================== */
